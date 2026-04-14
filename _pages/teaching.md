@@ -1,18 +1,16 @@
 ---
 layout: page
 permalink: /teaching/
-title: teaching
-description: I am/was a TA for multiple CS courses at UBC and UWaterloo.
+title: Misc
+description: 
 nav: true
 nav_order: 2
 ---
+Academic Service as a Reviewer:
+* NeurIPS (2025,2026), ICML (2026), PUT Workshop at ICML 2025, TTU Workshop at ICLR 2026
+* TIFS, TKDE, TNNLS, IEEE SPL
 
-At UBC :
-* TA, CPSC340 Machine Learning and Data Mining : 23Winter, 23Fall, 24Winter 
-* TA, CPSC330 Applied Machine Learning : 22Fall
+Teaching Assistant:
 
-
-At UWaterloo :
-* TA, CS240 Data Structure & Data Management : 20Winter, 20Spring, 21Winter, 21Spring
-* TA, CS370 Numerical Computation : 21Winter
-* TA, CS234 Data Types and Structure : 20Fall
+* @UBC : CPSC 304 Introduction to Relational Databases (26Winter), CPSC330 Applied Machine Learning (22Fall), CPSC340 Machine Learning and Data Mining (23Winter, 23Fall, 24Winter).
+* @UWaterloo : CS234 Data Types and Structure (20Fall), CS240 Data Structure & Data Management (20Winter, 20Spring, 21Winter, 21Spring), CS370 Numerical Computation (21Winter).
