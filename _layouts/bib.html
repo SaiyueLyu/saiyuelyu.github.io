@@ -26,8 +26,15 @@
           {%- else -%}
             <abbr class="badge">{{entry.abbr}}</abbr>
           {%- endif -%}
-          {%- if entry.award -%}
-          <span class="award badge">{{entry.award}}</span>
+          <span class="abbr-badges">
+            {%- if entry.award -%}
+            <span class="award badge">{{entry.award}}</span>
+            {%- endif -%}
+          </span>
+          {%- if entry.workshop -%}
+          <div class="workshop-row">
+            <span class="workshop badge" {% if venue_style %}{{venue_style}}{% endif %}>{{entry.workshop}}</span>
+          </div>
           {%- endif -%}
         {%- endif -%}
         </div>
@@ -199,6 +206,18 @@
           {%- endif %}
           {%- if entry.website %}
             <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">Website</a>
+          {%- endif %}
+          {%- if entry.iclrws %}
+            <a href="{{ entry.iclrws }}" class="btn btn-sm z-depth-0" role="button">ICLR Workshop Version</a>
+          {%- endif %}
+          {%- if entry.cvprws %}
+            <a href="{{ entry.cvprws }}" class="btn btn-sm z-depth-0" role="button">CVPR Workshop Version</a>
+          {%- endif %}
+          {%- if entry.icmlws %}
+            <a href="{{ entry.icmlws }}" class="btn btn-sm z-depth-0" role="button">ICML Workshop Version</a>
+          {%- endif %}
+          {%- if entry.masterthesis %}
+            <a href="{{ entry.masterthesis }}" class="btn btn-sm z-depth-0" role="button">Master Thesis Version</a>
           {%- endif %}
           </div>
           {% if site.enable_publication_badges %}

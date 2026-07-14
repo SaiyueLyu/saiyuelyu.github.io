@@ -7,8 +7,8 @@ nav: true
 nav_order: 2
 ---
 Academic Service as a Reviewer:
-* NeurIPS (2025,2026), ICML (2026), PUT Workshop at ICML 2025, TTU Workshop at ICLR 2026
-* TIFS, TKDE, TNNLS, IEEE SPL
+* NeurIPS (2025,2026), ICML (2026), PUT Workshop at ICML 2025, FMSD Workshop at ICML 2026, TTU Workshop at ICLR 2026
+* TMLR, TIFS, TKDE, TNNLS, IEEE SPL
 
 Teaching Assistant:
 

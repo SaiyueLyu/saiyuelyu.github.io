@@ -2,8 +2,8 @@
 layout: page
 permalink: /publications/
 title: publications
-description: more to come:)
-years: [2026, 2025, 2024, 2023, 2022]
+description: "* denotes equal contribution. More to come:)"
+years: [2026, 2025, 2024, 2023]
 nav: true
 nav_order: 1
 ---

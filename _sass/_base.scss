@@ -668,8 +668,17 @@ footer.sticky-bottom {
       }
 
       .abbr {
-        height: 2rem;
         margin-bottom: 0.5rem;
+
+        .abbr-badges {
+          display: inline-flex;
+          align-items: center;
+          // margin-left: 0.4rem;
+        }
+
+        .workshop-row {
+          margin-top: 0.35rem;
+        }
 
         abbr {
           display: inline-block;
@@ -691,6 +700,14 @@ footer.sticky-bottom {
           border: 1px solid var(--global-honor-color);
           padding-left: 0.75rem;
           padding-right: 0.75rem;
+        }
+
+        .workshop {
+          color: white;
+          background-color: var(--global-theme-color);
+          padding-left: 0.75rem;
+          padding-right: 0.75rem;
+          margin-top: 0.8rem;
         }
       }
 
